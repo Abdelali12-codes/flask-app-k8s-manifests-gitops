@@ -16,7 +16,7 @@ spec:
         app: flask
     spec:
       containers:
-      - image: 080266302756.dkr.ecr.us-east-2.amazonaws.com/flask_rest:a4df9a0e303c3f932602b948e682da764086f381
+      - image: 080266302756.dkr.ecr.us-east-2.amazonaws.com/flask_rest:0e73c7c9632dff72fa7cb718254afc2de011fc83
         name: flask
         envFrom:
           - secretRef:
